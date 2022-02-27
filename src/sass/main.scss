@@ -1,0 +1,10 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$primary: green;
+
+$font-family-sans-serif: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-weight-sans-serif: 400;
+$headings-font-weight: 700;
+
+@import "~bootstrap/scss/bootstrap";

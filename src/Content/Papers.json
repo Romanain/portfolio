@@ -1,0 +1,63 @@
+{
+    "Papers": [
+        {
+            "Title": "Futureme: Negotiating learning goals with your future learning-self avatar",
+            "Authors": [
+                "Tsiakas, Konstantinos",
+                "Cnossen, Deborah",
+                "Muyrers, Tim HC",
+                "Stappers, Danique RC",
+                "Toebosch, Romain HA",
+                "Barakova, Emilia"
+            ],
+            "Journal": "The 14th PErvasive Technologies Related to Assistive Environments Conference",
+            "Year": 2021,
+            "DOI_URL": "https://doi.org/10.1145/3453892.3461008"
+        },
+        {
+            "Title": "It's Food Fight! Designing the Chef's Hat Card Game for Affective-Aware HRI",
+            "Authors": [
+                "Barros, Pablo",
+                "Sciutti, Alessandra",
+                "Bloem, Anne C",
+                "Hootsmans, Inge M",
+                "Opheij, Lena M",
+                "Toebosch, Romain HA",
+                "Barakova, Emilia"
+            ],
+            "Journal": "Companion of the 2021 ACM/IEEE International Conference on Human-Robot Interaction",
+            "Year": 2021,
+            "DOI_URL": "https://doi.org/10.1145/3434074.3447227"
+        },
+        {
+            "Title": "You Were Always on My Mind: Introducing Chef’s Hat and COPPER for Personalized Reinforcement Learning",
+            "Authors": [
+                "Barros, Pablo",
+                "Bloem, Anne C",
+                "Hootsmans, Inge M",
+                "Opheij, Lena M",
+                "Toebosch, Romain HA",
+                "Barakova, Emilia",
+                "Sciutti, Alessandra"
+            ],
+            "Journal": "Frontiers in Robotics and AI",
+            "Year": 2021,
+            "DOI_URL": "https://doi.org/10.3389/frobt.2021.669990"
+        },
+        {
+            "Title": "Improving emotional expression recognition of robots using regions of interest from human data",
+            "Authors": [
+                "Bloem, Anne C",
+                "Barakova, Emilia",
+                "Hootsmans, Inge M",
+                "Opheij, Lena M",
+                "Toebosch, Romain HA",
+                "Matthias Kerzel",
+                "Barros, Pablo"
+            ],
+            "Journal": "Companion of the 2020 ACM/IEEE International Conference on Human-Robot Interaction",
+            "Year": 2020,
+            "DOI_URL": "https://doi.org/10.1145/3371382.3378359"
+        }
+    ]
+}
