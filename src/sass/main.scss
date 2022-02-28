@@ -1,5 +1,11 @@
 /* The following block can be included in a custom.scss */
 
+@media (max-width: 1400px) {
+    .first-card-to-hide {
+        display: none;
+    }
+}
+
 /* make the customizations */
 $primary: green;
 

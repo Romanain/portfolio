@@ -17,7 +17,7 @@ function PaperCard(props) {
 
     return (
         <div>
-            <Card style={{ width: '26rem', marginRight: "1rem", height: '100%' }}>
+            <Card style={{ width: '23rem', height: '100%', margin: '0px' }}>
                 <Card.Body>
                     <Card.Title> {props.data.Title}</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">
