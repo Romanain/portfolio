@@ -7,6 +7,8 @@ import ContactMe from './Components/ContactMe';
 import NavigationBar from './Components/NavigationBar';
 
 function App() {
+  document.title = "Portfolio Romain Toebosch";
+
   return (
     <div className="App">
       <NavigationBar />
