@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.eef489ab.js",
+    "main.css": "/portfolio/static/css/main.c2466079.css",
+    "main.js": "/portfolio/static/js/main.fbf0c7e8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/University_of_Luxembourg_logo_fr.svg_.png": "/portfolio/static/media/University_of_Luxembourg_logo_fr.svg_.631b4f4b836d4cc066cc.png",
+    "static/media/iit-logo-v3-vertical-pos-1000px.png": "/portfolio/static/media/iit-logo-v3-vertical-pos-1000px.99119071a34ac9c84c5c.png",
+    "static/media/TUe-logo-descriptor-stack-scarlet-L.png": "/portfolio/static/media/TUe-logo-descriptor-stack-scarlet-L.4d192deb0346c2b46e71.png",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.eef489ab.js.map": "/portfolio/static/js/main.eef489ab.js.map",
+    "main.c2466079.css.map": "/portfolio/static/css/main.c2466079.css.map",
+    "main.fbf0c7e8.js.map": "/portfolio/static/js/main.fbf0c7e8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.eef489ab.js"
+    "static/css/main.c2466079.css",
+    "static/js/main.fbf0c7e8.js"
   ]
 }
