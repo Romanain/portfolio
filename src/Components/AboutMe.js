@@ -6,6 +6,11 @@ import Button from 'react-bootstrap/Button';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 
+import Skills from './Skills';
+import Education from './Education';
+import AExperience from './AExperience';
+import PExperience from './PExperience';
+
 function AboutMe() {
     return (
         <Container>
@@ -18,25 +23,6 @@ function AboutMe() {
                     <p>
                         In my free time you can find me cooking something new in the kitchen, trying out different musical instruments, working on electronics, or marvelling online about the latest developments in tech. I’m always up for a discussion or to learn something new about a variety of topics, so never hesitate to strike up a conversation with me!
                     </p>
-                    {/* <Row>
-                        <Col md="auto">
-                            <Button variant="secondary" size="md">
-                                Education
-                            </Button>
-                        </Col>
-                        <Col />
-                        <Col md="auto">
-                            <Button variant="secondary" size="md">
-                                Experience
-                            </Button>
-                        </Col>
-                        <Col />
-                        <Col md="auto">
-                            <Button variant="secondary" size="md">
-                                Resume
-                            </Button>
-                        </Col>
-                    </Row> */}
                 </Col>
                 <Col md={{ span: 4, order: 1 }} sm={{ order: 0 }} style={{ height: 'auto', minHeight: '150px', backgroundColor: '#f5f5f5' }}>
                     <p>
@@ -47,15 +33,18 @@ function AboutMe() {
             <br />
             <Row>
                 <Col md={{ span: 8 }} sm={{ order: 1 }}>
-                    <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+                    <Tabs defaultActiveKey="Skills" id="uncontrolled-tab-example" className="mb-3">
                         <Tab eventKey="Skills" title="Skills">
-                            {/* <Sonnet /> */}
+                            <Skills />
                         </Tab>
                         <Tab eventKey="Education" title="Education">
-                            {/* <Sonnet /> */}
+                            <Education />
                         </Tab>
-                        <Tab eventKey="Experience" title="Experience">
-                            {/* <Sonnet /> */}
+                        <Tab eventKey="Academic_Experience" title="Academic Experience">
+                            <AExperience />
+                        </Tab>
+                        <Tab eventKey="Professional_Experience" title="Professional Experience">
+                            <PExperience />
                         </Tab>
                     </Tabs>
                 </Col>
