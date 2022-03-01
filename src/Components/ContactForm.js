@@ -15,7 +15,7 @@ function ContactForm() {
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="name">
-                Your Name
+                Your name
             </label>
             <input
                 id="name"
@@ -28,7 +28,7 @@ function ContactForm() {
                 errors={state.errors}
             />
             <label htmlFor="email">
-                Email Address
+                Email address
             </label>
             <input
                 id="email"

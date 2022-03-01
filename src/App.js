@@ -1,26 +1,24 @@
 import './sass/App.scss';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
-import Banner from './Components/Banner';
-import AboutMe from './Components/AboutMe';
-import MyWork from './Components/MyWork';
-import ContactMe from './Components/ContactMe';
 import NavigationBar from './Components/NavigationBar';
+import Home from './Pages/Home'
 
 function App() {
   document.title = "Portfolio Romain Toebosch";
 
   return (
     <div className="App">
-      <NavigationBar />
-      <br />
-      <Banner />
-      <br />
-      <AboutMe />
-      <br />
-      <br />
-      <MyWork />
-      <br />
-      <ContactMe />
+      <BrowserRouter>
+        <NavigationBar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/test" element={<Home />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+
+      </BrowserRouter>
     </div>
   );
 }

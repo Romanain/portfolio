@@ -12,10 +12,10 @@ import projectData from '../Content/Projects.json';
 
 function MyWork() {
     return (
-        <Container>
+        <Container id="MyWork" className="section-head section-container">
             <h1 style={{ textAlign: "center" }}>My work</h1>
             <p style={{ textAlign: "center" }}> A collection of my latest endeavours</p>
-            <Row>
+            <Row id="Projects" className="section-head">
                 <h2 style={{ textAlign: "center" }}>Projects</h2>
             </Row>
             <Row>
@@ -32,7 +32,7 @@ function MyWork() {
                 </Col>
             </Row>
             <br />
-            <Row>
+            <Row id="Publications" className="section-head">
                 <Col>
                     <h2 style={{ textAlign: "center" }}>Publications</h2>
                 </Col>

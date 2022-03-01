@@ -81,7 +81,7 @@ const skillSet = [
             },
             {
                 skillName: "Interactive application programming",
-                skillDescription: "Experience with Processing, Android Studio, and Unity. Mock-ups using Figma and Adobe XD",
+                skillDescription: "Experience programming with Processing, Android Studio, and Unity. Mock-ups using Figma and Adobe XD",
                 devIcons: [
                     "devicon-processing-plain",
                     "devicon-android-plain",

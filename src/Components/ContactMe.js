@@ -6,7 +6,7 @@ import ContactForm from './ContactForm';
 
 function ContactMe() {
     return (
-        <Container>
+        <Container id="ContactMe" className="section-head section-container">
             <Row>
                 <Col />
                 <Col lg={{ span: 6 }}>

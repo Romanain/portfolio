@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function Banner() {
     return (
-        <Container>
+        <Container id="Home" className="section-head">
             <Row>
                 <Col md={{ span: 4 }} style={{ height: '400px', textAlign: 'center', backgroundColor: '#f8f9fa' }}>
                     <div>
@@ -18,13 +18,13 @@ function Banner() {
                         <br />
                         <h1>Hi, I'm Romain, <br /> a MSc student Industrial Design</h1>
                         <h3 style={{ color: "gray", fontWeight: "400", marginBottom: "3rem" }}>... and I'm currently looking for a PhD position</h3>
-                        <Button variant="outline-primary" size="lg">
+                        <Button href="#AboutMe" variant="outline-primary" size="lg">
                             Learn about me
                         </Button> { }
-                        <Button variant="outline-primary" size="lg" style={{ marginTop: "10px", marginBottom: "10px" }}>
+                        <Button href="#MyWork" variant="outline-primary" size="lg" style={{ marginTop: "10px", marginBottom: "10px" }}>
                             Learn about my work
                         </Button> { }
-                        <Button variant="outline-primary" size="lg">
+                        <Button href="#ContactMe" variant="outline-primary" size="lg">
                             Get in touch
                         </Button>
                     </Container>
