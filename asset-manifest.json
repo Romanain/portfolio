@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f4d5665c.css",
-    "main.js": "/portfolio/static/js/main.fb9b5b94.js",
+    "main.css": "/portfolio/static/css/main.e8ca9169.css",
+    "main.js": "/portfolio/static/js/main.aea18379.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Relio_IF_Poster.png": "/portfolio/static/media/Relio_IF_Poster.025b6044f897cf87799d.png",
+    "static/media/Hikey_mockup_1.png": "/portfolio/static/media/Hikey_mockup_1.f1782cf22f40d6c8e3a0.png",
+    "static/media/Hikey_mockup_4.png": "/portfolio/static/media/Hikey_mockup_4.4df403522ff5d01fe684.png",
+    "static/media/Moirai_main.jpg": "/portfolio/static/media/Moirai_main.326c651942e0c7d6c925.jpg",
+    "static/media/Relio_Photo_main.jpg": "/portfolio/static/media/Relio_Photo_main.f2df651714640939fe8c.jpg",
+    "static/media/Moirai_shallow.jpg": "/portfolio/static/media/Moirai_shallow.5579cf3df21377a8156e.jpg",
+    "static/media/Relio_Calling.jpg": "/portfolio/static/media/Relio_Calling.536c36194f1badebe0df.jpg",
+    "static/media/DJI_0064.jpg": "/portfolio/static/media/DJI_0064.2f39a6fa7bcb1185aaa2.jpg",
+    "static/media/CoSensUs_main.png": "/portfolio/static/media/CoSensUs_main.bf7292530311fff473d9.png",
+    "static/media/20211025_084348.jpg": "/portfolio/static/media/20211025_084348.1355e4a6cf2604d63055.jpg",
+    "static/media/Hikey_mockup_2.png": "/portfolio/static/media/Hikey_mockup_2.e56756fab6d0fda5b2c0.png",
+    "static/media/Relio_Balance.png": "/portfolio/static/media/Relio_Balance.d9ff7590a00344c2721a.png",
+    "static/media/CoSensUs_Brainstorming.png": "/portfolio/static/media/CoSensUs_Brainstorming.ee233372f3f200ec1fbb.png",
+    "static/media/Moirai_side.jpg": "/portfolio/static/media/Moirai_side.7177b73b6d3ed3432cc4.jpg",
+    "static/media/CoSensUs_Walking.png": "/portfolio/static/media/CoSensUs_Walking.0c9dd8037636f87a2a90.png",
+    "static/media/Moirai_front.jpg": "/portfolio/static/media/Moirai_front.c2d1610bef5dd8f8fe6a.jpg",
     "static/media/Resume_layout_v04_WEB_Page_1.jpg": "/portfolio/static/media/Resume_layout_v04_WEB_Page_1.461855b4eb256ec9ae85.jpg",
+    "static/media/CoSensUs_Teams.png": "/portfolio/static/media/CoSensUs_Teams.c50eaf0a7294254e23d1.png",
+    "static/media/CoSensUs_Framework.jpg": "/portfolio/static/media/CoSensUs_Framework.b79dcff8fbfb357cf1cc.jpg",
     "static/media/Resume_layout_v04_WEB.pdf": "/portfolio/static/media/Resume_layout_v04_WEB.ba64013ebe2116dcf1ae.pdf",
     "static/media/University_of_Luxembourg_logo_fr.svg_.png": "/portfolio/static/media/University_of_Luxembourg_logo_fr.svg_.631b4f4b836d4cc066cc.png",
     "static/media/iit-logo-v3-vertical-pos-1000px.png": "/portfolio/static/media/iit-logo-v3-vertical-pos-1000px.99119071a34ac9c84c5c.png",
+    "static/media/IF.png": "/portfolio/static/media/IF.88d7db9788569b4f6a19.png",
     "static/media/TUe-logo-descriptor-stack-scarlet-L.png": "/portfolio/static/media/TUe-logo-descriptor-stack-scarlet-L.4d192deb0346c2b46e71.png",
     "index.html": "/portfolio/index.html",
-    "main.f4d5665c.css.map": "/portfolio/static/css/main.f4d5665c.css.map",
-    "main.fb9b5b94.js.map": "/portfolio/static/js/main.fb9b5b94.js.map",
+    "main.e8ca9169.css.map": "/portfolio/static/css/main.e8ca9169.css.map",
+    "main.aea18379.js.map": "/portfolio/static/js/main.aea18379.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4d5665c.css",
-    "static/js/main.fb9b5b94.js"
+    "static/css/main.e8ca9169.css",
+    "static/js/main.aea18379.js"
   ]
 }
