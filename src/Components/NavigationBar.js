@@ -12,18 +12,18 @@ function NavigationBar() {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
                 <Container>
-                    <Navbar.Brand><HashLink to="/#Home">Romain TOEBOSCH</HashLink></Navbar.Brand>
+                    <Navbar.Brand><HashLink to="/portfolio/#Home">Romain TOEBOSCH</HashLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link><HashLink to="/#AboutMe">About me</HashLink></Nav.Link>
+                            <Nav.Link><HashLink to="/portfolio/#AboutMe">About me</HashLink></Nav.Link>
                             <NavDropdown title="My work" id="collasible-nav-dropdown">
-                                <NavDropdown.Item><HashLink to="/#Projects">My projects</HashLink></NavDropdown.Item>
-                                <NavDropdown.Item><HashLink to="/#Publications">My publications</HashLink></NavDropdown.Item>
+                                <NavDropdown.Item><HashLink to="/portfolio/#Projects">My projects</HashLink></NavDropdown.Item>
+                                <NavDropdown.Item><HashLink to="/portfolio/#Publications">My publications</HashLink></NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Button href="#ContactMe" size="md">Contact me!</Button>
+                            <Button href="/portfolio/#ContactMe" size="md">Contact me!</Button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

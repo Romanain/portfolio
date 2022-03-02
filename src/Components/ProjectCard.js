@@ -5,14 +5,26 @@ import { Link } from 'react-router-dom'
 
 function ProjectCard(props) {
     var imageStyle = { backgroundColor: 'lightgrey' }
+    var award;
 
     if (props.data.Images.length > 0) {
-        imageStyle = { backgroundImage: `url(${require('../Content/Images/InstitutionIcons/' + props.data.Images[0].URL)})` }
+        imageStyle = { backgroundImage: `url(${require('../Content/Images/Project_photos/' + props.data.Images[0].URL)})` }
+    }
+
+    if (props.data.Awards.length > 0) {
+        award = (
+            <img src={require('../Content/Images/IF.png')} style={{
+                position: 'absolute', bottom: '15.75rem', right: '1rem',
+                height: '3rem', width: 'auto'
+            }} />
+        )
     }
 
     return (
         <Card style={{ width: '26rem', height: '100%', marginRight: "1rem" }}>
-            <div className="card-image" style={imageStyle}></div>
+            <div className="card-image" style={imageStyle}>
+                {award}
+            </div>
             <Card.Body>
                 <Card.Title>
                     {props.data.Project_name} <span style={{ fontWeight: 'normal' }}>/ {props.data.Tagline}</span>

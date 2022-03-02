@@ -8,15 +8,21 @@ function Banner() {
     return (
         <Container id="Home" className="section-head">
             <Row>
-                <Col md={{ span: 4 }} style={{ height: '400px', textAlign: 'center', backgroundColor: '#f8f9fa' }}>
+                <Col md={{ span: 4 }} style={{
+                    height: '450px', textAlign: 'center', backgroundColor: '#f8f9fa',
+                    backgroundImage: `url(${require('../Content/Images/20211025_084348.jpg')})`,
+                    backgroundSize: 'cover', backgroundPosition: 'center',
+                    borderRadius: '3px'
+                }}>
                     <div>
-                        Picture of me
+                        PLACEHOLDER <br />
+                        This frame will contain a (better) picture of me
                     </div>
                 </Col>
                 <Col md={{ span: 8 }}>
                     <Container style={{ marginLeft: "1rem" }}>
                         <br />
-                        <h1>Hi, I'm Romain, <br /> a MSc student Industrial Design</h1>
+                        <h1 style={{ textTransform: 'none' }}>Hi, I'm Romain, <br /> a MSc student Industrial Design</h1>
                         <h3 style={{ color: "gray", fontWeight: "400", marginBottom: "3rem" }}>... and I'm currently looking for a PhD position</h3>
                         <Button href="#AboutMe" variant="outline-primary" size="lg">
                             Learn about me

@@ -31,7 +31,7 @@ function Skills() {
                                     </Tooltip>
                                 }
                             >
-                                <Button style={{ marginRight: '.5rem', marginBottom: '.5rem' }} size="sm" variant="outline-success">
+                                <Button style={{ marginRight: '.5rem', marginBottom: '.5rem' }} size="sm" variant="outline-secondary">
                                     {skill.skillName} { }
                                     {skill.devIcons.slice(0, 3).map((iconName) => (
                                         <i style={{ marginRight: '5px', fontSize: '1rem' }} class={iconName}></i>

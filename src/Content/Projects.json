@@ -14,19 +14,29 @@
             "Awards": [],
             "Images": [
                 {
-                    "Name": "Test Image",
-                    "Alt_text": "Test Image",
-                    "URL": "TUe-logo-descriptor-stack-scarlet-L.png"
+                    "Name": "CoSensUs",
+                    "Alt_text": "Illustration of CoSensUs applied",
+                    "URL": "CoSensUs_main.png"
                 },
                 {
-                    "Name": "Test Image",
-                    "Alt_text": "Test Image",
-                    "URL": "TUe-logo-descriptor-stack-scarlet-L.png"
+                    "Name": "CoSensUs Framework",
+                    "Alt_text": "CoSensUs framework explained",
+                    "URL": "CoSensUs_Framework.jpg"
                 },
                 {
-                    "Name": "Test Image",
-                    "Alt_text": "Test Image",
-                    "URL": "TUe-logo-descriptor-stack-scarlet-L.png"
+                    "Name": "CoSensUs Brainstorming",
+                    "Alt_text": "CoSensUs mini case Brainstorming",
+                    "URL": "CoSensUs_Brainstorming.png"
+                },
+                {
+                    "Name": "CoSensUs Teams meetings",
+                    "Alt_text": "CoSensUs mini case Teams meetings",
+                    "URL": "CoSensUs_Teams.png"
+                },
+                {
+                    "Name": "CoSensUs Walking meetong",
+                    "Alt_text": "CoSensUs mini case Walking meetings",
+                    "URL": "CoSensUs_Walking.png"
                 }
             ]
         },
@@ -34,7 +44,7 @@
             "Project_name": "Moirai",
             "Tagline": "",
             "Year": 2021,
-            "Project_type": "Project MSc Industrial Design",
+            "Project_type": "Research project MSc Industrial Design",
             "Project_description": {
                 "Introduction": "",
                 "Problem": "",
@@ -42,13 +52,34 @@
                 "Solution": ""
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_main.jpg"
+                },
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_side.jpg"
+                },
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_shallow.jpg"
+                },
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_front.jpg"
+                }
+            ]
         },
         {
             "Project_name": "Relio",
             "Tagline": "Recontextualizing the Work-From-Home environment",
             "Year": 2021,
-            "Project_type": "Project MSc Industrial Design",
+            "Project_type": "Group project MSc Industrial Design",
             "Project_description": {
                 "Introduction": "Relio is a work from home assistant that helps users manage their work/life balance.",
                 "Problem": "Due to the COVID-19 pandemic, many office workers have been forced to work from home, resulting in multiple mental health challenges related to work-life balance, coworker communication, and feelings of isolation.",
@@ -62,7 +93,28 @@
                     "Logo_URL": ""
                 }
             ],
-            "Images": []
+            "Images": [
+                {
+                    "Name": "Relio",
+                    "Alt_text": "Image of the aesthetic prototype of Moirai",
+                    "URL": "Relio_Photo_main.jpg"
+                },
+                {
+                    "Name": "Relio",
+                    "Alt_text": "Image of the aesthetic prototype of Moirai",
+                    "URL": "Relio_Calling.jpg"
+                },
+                {
+                    "Name": "Relio",
+                    "Alt_text": "Image of the aesthetic prototype of Moirai",
+                    "URL": "Relio_Balance.png"
+                },
+                {
+                    "Name": "IF Design poster Relio",
+                    "Alt_text": "Image of the poster submitted to the IF Design talent award",
+                    "URL": "Relio_IF_Poster.png"
+                }
+            ]
         },
         {
             "Project_name": "Hikey",
@@ -76,7 +128,23 @@
                 "Solution": "The outcome was the mock-up of the application Hikey. Students can use Hikey to plan their homework, and will gradually be exposed to different elements of self-regulation, until they are fully self-regulated learners. A business model was made to prove the market potential of the app."
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "Name": "Mockup Hikey",
+                    "Alt_text": "Image of a mockup of the Hikey app",
+                    "URL": "Hikey_mockup_1.png"
+                },
+                {
+                    "Name": "Mockup Hikey",
+                    "Alt_text": "Image of a mockup of the Hikey app",
+                    "URL": "Hikey_mockup_2.png"
+                },
+                {
+                    "Name": "Mockup Hikey",
+                    "Alt_text": "Image of a mockup of the Hikey app",
+                    "URL": "Hikey_mockup_4.png"
+                }
+            ]
         }
     ]
 }

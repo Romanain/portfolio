@@ -14,9 +14,11 @@ function App() {
         <NavigationBar />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project/:projectID" element={<Project />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route>
+            <Route path="/portfolio/" element={<Home />} />
+            <Route path="/portfolio/project/:projectID" element={<Project />} />
+            <Route path="*" element={<Navigate to="/portfolio/" />} />
+          </Route>
         </Routes>
 
       </BrowserRouter>

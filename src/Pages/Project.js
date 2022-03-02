@@ -6,8 +6,20 @@ import ProjectsFile from '../Content/Projects.json'
 function Project() {
     const { projectID } = useParams();
     const thisProject = ProjectsFile.Projects[projectID]
+    var award = ("")
 
-
+    if (thisProject.Awards.length > 0) {
+        award = (
+            <Container>
+                <br /><br />
+                <a href="https://www.ifdesign.com/en/winner-ranking/project/relio/322156">
+                    <img src={require('../Content/Images/IF.png')} style={{
+                        height: '6rem', width: 'auto', float: 'right'
+                    }} />
+                </a>
+            </Container>
+        )
+    }
 
     // if (props.data.Images.length > 0) {
     //     imageStyle = { backgroundImage: `url(${require('../Content/Images/InstitutionIcons/' + props.data.Images[0].URL)})` }
@@ -20,7 +32,7 @@ function Project() {
                     {
                         thisProject.Images.map((Image) => (
                             <>
-                                <img alt={Image.Alt_text} src={require('../Content/Images/InstitutionIcons/' + Image.URL)} />
+                                <img style={{ width: '100%' }} alt={Image.Alt_text} src={require('../Content/Images/Project_photos/' + Image.URL)} />
                             </>
                         ))
 
@@ -58,6 +70,8 @@ function Project() {
                         <h4>The solution</h4>
                         {thisProject.Project_description.Solution}
                     </div>
+
+                    {award}
 
                 </Col>
             </Row>

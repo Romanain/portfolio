@@ -16,7 +16,7 @@ function MyWork() {
             <h1 style={{ textAlign: "center" }}>My work</h1>
             <p style={{ textAlign: "center" }}> A collection of my latest endeavours</p>
             <Row id="Projects" className="section-head">
-                <h2 style={{ textAlign: "center" }}>Projects</h2>
+                <h2 style={{ textAlign: "center" }}>Design projects</h2>
             </Row>
             <Row>
                 <Col>
@@ -31,6 +31,8 @@ function MyWork() {
                     </div>
                 </Col>
             </Row>
+            <br />
+            <br />
             <br />
             <Row id="Publications" className="section-head">
                 <Col>
