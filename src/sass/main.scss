@@ -1,54 +1,4 @@
 /* The following block can be included in a custom.scss */
-
-.horizontal-scroll-box {
-    overflow-y: hidden;
-    overflow-x: auto;
-    white-space: nowrap;
-    height: 100%;
-}
-
-.horizontal-scroll-item {
-    display: inline-block; 
-    white-space: normal;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.section-head {
-  scroll-margin-top: 4rem;
-}
-
-.section-container {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-#Home {
-  padding-top: 5rem;
-}
-
-#resume-download {
-  height: auto;
-  min-height: 150px;
-  background-image: url(../Content/Images/Resume_layout_v04_WEB_Page_1.jpg);
-  background-repeat: no-repeat; 
-  background-size: cover;
-  padding: 0px;
-
-  div {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(235,235,235,.5);
-    text-align: center;
-    .btn {
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-}
-
 /* make the customizations */
 $primary: green;
 
@@ -58,3 +8,100 @@ $headings-font-weight: 700;
 
 @import "./form-reset.scss";
 @import "~bootstrap/scss/bootstrap";
+
+.project-description {
+  padding-left: 20px;
+  margin: 2rem 0;
+  border: 0px solid grey;
+  border-left-width: 5px;
+  transition: 0.5s;
+
+  &-problem:hover {
+    border-left-color: $danger;
+    h4 {
+      color: $danger;
+    }
+  }
+  &-process:hover {
+    border-left-color: $warning;
+    h4 {
+      color: $warning;
+    }
+  }
+  &-solution:hover {
+    border-left-color: $success;
+    h4 {
+      color: $success;
+    }
+  }
+}
+
+.horizontal-scroll-box {
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.horizontal-scroll-item {
+  display: inline-block; 
+  white-space: normal;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section-head {
+scroll-margin-top: 4rem;
+}
+
+.section-container {
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+#Home {
+padding-top: 5rem;
+}
+
+#resume-download {
+height: auto;
+min-height: 150px;
+background-image: url(../Content/Images/Resume_layout_v04_WEB_Page_1.jpg);
+background-repeat: no-repeat; 
+background-size: cover;
+padding: 0px;
+
+div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(235,235,235,.5);
+  text-align: center;
+  .btn {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+}
+
+.card-image {
+height: 16rem;
+width: 100%;
+background-repeat: none;
+background-size: cover;
+background-position: center center;
+}
+
+@mixin link-reset {
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55)
+  }
+}
+.nav-link {
+  @include link-reset()
+}
+.navbar-brand {
+  @include link-reset()
+}

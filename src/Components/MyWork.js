@@ -22,9 +22,9 @@ function MyWork() {
                 <Col>
                     <div className='horizontal-scroll-box'>
                         {
-                            projectData.Projects.map((project) => (
+                            projectData.Projects.map((project, idx) => (
                                 <div className='horizontal-scroll-item'>
-                                    <ProjectCard data={project}></ProjectCard>
+                                    <ProjectCard data={project} idx={idx}></ProjectCard>
                                 </div>
                             ))
                         }

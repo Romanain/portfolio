@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
 import NavigationBar from './Components/NavigationBar';
 import Home from './Pages/Home'
+import Project from './Pages/Project';
 
 function App() {
   document.title = "Portfolio Romain Toebosch";
@@ -14,7 +15,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/test" element={<Home />} />
+          <Route path="/project/:projectID" element={<Project />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
 

@@ -14,9 +14,19 @@
             "Awards": [],
             "Images": [
                 {
-                    "Name": "",
-                    "Alt_text": "",
-                    "URL": ""
+                    "Name": "Test Image",
+                    "Alt_text": "Test Image",
+                    "URL": "TUe-logo-descriptor-stack-scarlet-L.png"
+                },
+                {
+                    "Name": "Test Image",
+                    "Alt_text": "Test Image",
+                    "URL": "TUe-logo-descriptor-stack-scarlet-L.png"
+                },
+                {
+                    "Name": "Test Image",
+                    "Alt_text": "Test Image",
+                    "URL": "TUe-logo-descriptor-stack-scarlet-L.png"
                 }
             ]
         },
@@ -32,13 +42,7 @@
                 "Solution": ""
             },
             "Awards": [],
-            "Images": [
-                {
-                    "Name": "",
-                    "Alt_text": "",
-                    "URL": ""
-                }
-            ]
+            "Images": []
         },
         {
             "Project_name": "Relio",
@@ -58,13 +62,7 @@
                     "Logo_URL": ""
                 }
             ],
-            "Images": [
-                {
-                    "Name": "",
-                    "Alt_text": "",
-                    "URL": ""
-                }
-            ]
+            "Images": []
         },
         {
             "Project_name": "Hikey",
@@ -78,13 +76,7 @@
                 "Solution": "The outcome was the mock-up of the application Hikey. Students can use Hikey to plan their homework, and will gradually be exposed to different elements of self-regulation, until they are fully self-regulated learners. A business model was made to prove the market potential of the app."
             },
             "Awards": [],
-            "Images": [
-                {
-                    "Name": "",
-                    "Alt_text": "",
-                    "URL": ""
-                }
-            ]
+            "Images": []
         }
     ]
 }
