@@ -32,14 +32,14 @@ function Project() {
                     {
                         thisProject.Images.map((Image) => (
                             <>
-                                <img style={{ width: '100%' }} alt={Image.Alt_text} src={require('../Content/Images/Project_photos/' + Image.URL)} />
+                                <img style={{ width: '100%', marginBottom: '1rem' }} alt={Image.Alt_text} src={require('../Content/Images/Project_photos/' + Image.URL)} />
                             </>
                         ))
 
                     }
                 </Col>
                 <Col>
-                    <h1 style={{ marginBottom: '0px' }}>{thisProject.Project_name}</h1>
+                    <h1 style={{ marginBottom: '0px', textAlign: 'left' }}>{thisProject.Project_name}</h1>
                     <Row>
                         <Col xs={{ span: '1' }}>
                             <span style={{ fontSize: '1.75rem', color: 'grey', fontWeight: '400', marginTop: '0px' }}>{'>'}</span>

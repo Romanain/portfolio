@@ -67,8 +67,8 @@ scroll-margin-top: 4rem;
 }
 
 .section-container {
-margin-top: 4rem;
-margin-bottom: 4rem;
+margin-top: 6rem;
+margin-bottom: 10rem;
 }
 
 #Home {
@@ -92,6 +92,7 @@ div {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    margin: 1rem;
   }
 }
 }
@@ -119,4 +120,26 @@ background-position: center center;
 
 h1 {
   text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+.quote {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  font-size: 1.8rem;
+  span {
+    color:rgb(72, 145, 20);
+    font-weight: bold;
+  }
 }
