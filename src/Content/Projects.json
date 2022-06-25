@@ -1,10 +1,102 @@
 {
     "Projects": [
         {
+            "Project_name": "CoSensUs Kit",
+            "Tagline": "Get a sense for your Collaborative Experience",
+            "Year": 2022,
+            "Project_type": "Final Master Project",
+            "Project_description": {
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
+            },
+            "Awards": [],
+            "Images": []
+        },
+        {
+            "Project_name": "Moirai",
+            "Tagline": "Co-regulating self-regulation through negotiation",
+            "Year": 2021,
+            "Project_type": "M12 Research Project",
+            "Project_description": {
+                "Introduction": "Moirai is design that acts as an exploration of different negotiation strategies to help runners self-regulate their running routines.",
+                "Problem": "As individuals are increasingly expected to take personal responsibility for running their own healthy lifestyle, self-regulation seems to become more important among athletes, who have to find a balance between achieving their goals and preventing over-use injuries. However, how can we best design for this self-regulation?",
+                "Process": "In the beginning, design was made meant to help runners self-regulate their running through a battery metaphor: when they were running, the battery depleted, and in between running sessions it filled up again. However, the negotiation in this design was limited, and it turned out quite paternalistic. After critically reflecting on the design, the question arose how different negotiation strategies would impact the autonomy and self-regulation of the user. To investigate this, Moirai was developed, a design consisting of a set of motorized sliders that allowed the user to directly negotiate with suggestions made by the device regarding running distance and days between running sessions. The device was programmed to have 10 different negotiation strategies based on the 5 negotiation strategies. An experiment was set up where participants were given scenarios and had to negotiate with a certain behavior of the device, after which they were interviewed about their experience. ",
+                "Solution": "The findings of this study resulted in the proposal of an alternative way of interacting with the device that does not completely correspond to hard or soft paternalism: a co-regulation between user and device through problem solving and compromising negotiation strategies. It is more explicit then nudging and gives participants the opportunity to explore integrative potential and come to mutual agreement. Our preliminary study shows users do not feel as coerced as with hard paternalism and prefer it over soft paternalism. More investigations are however needed to come to a decisive conclusion. "
+            },
+            "Awards": [],
+            "Images": [
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_main.jpg"
+                },
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_side.jpg"
+                },
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_shallow.jpg"
+                },
+                {
+                    "Name": "Moirai",
+                    "Alt_text": "Image of the interactive prototype of Moirai",
+                    "URL": "Moirai_front.jpg"
+                }
+            ]
+        },
+        {
+            "Project_name": "Relio",
+            "Tagline": "Recontextualizing the Work-From-Home environment",
+            "Year": 2021,
+            "Project_type": "M11 Design Project",
+            "Project_description": {
+                "Introduction": "Relio is a work from home assistant that helps users manage their work/life balance.",
+                "Problem": "Due to the COVID-19 pandemic, many office workers have been forced to work from home, resulting in multiple mental health challenges related to work-life balance, coworker communication, and feelings of isolation.",
+                "Process": "Through cultural probes and interviews, insights were gathered on what different values people had surrounding work/life balance. What became apparent is that users had very different reasons why they care about work/life balance, but most of them had in common that the pandemic and WFH-context made it harder to separate both, due to a lack of different physical spaces. In order to recreate this difference between home and work, different ways were explored to recontextualize the user while working, using soundscapes and different interface designs to organize communication channels. We discussed findings with employees from Asus, with whom we collaborated on this project.",
+                "Solution": "Relio is a WFH assistant recontextualizing the user when working from home. The calming soundscape makes the user peripherally aware of the happenings in the online/hybrid office environment in a non-obtrusive way, and the interface lowers the threshold to spontaneously communicate with coworkers. At the end of the working day, Relio can be turned off, ceasing all communication with the office and ending the soundscape, bringing the user back home."
+            },
+            "Awards": [
+                {
+                    "Name": "IF Design Talent Award",
+                    "Year": 2021,
+                    "Logo_URL": "../Content/Images/IF.png",
+                    "Award_URL": "ifdesign.com"
+                }
+            ],
+            "Images": [
+                {
+                    "Name": "Relio",
+                    "Alt_text": "Image of the aesthetic prototype of Moirai",
+                    "URL": "Relio_Photo_main.jpg"
+                },
+                {
+                    "Name": "Relio",
+                    "Alt_text": "Image of the aesthetic prototype of Moirai",
+                    "URL": "Relio_Calling.jpg"
+                },
+                {
+                    "Name": "Relio",
+                    "Alt_text": "Image of the aesthetic prototype of Moirai",
+                    "URL": "Relio_Balance.png"
+                },
+                {
+                    "Name": "IF Design poster Relio",
+                    "Alt_text": "Image of the poster submitted to the IF Design talent award",
+                    "URL": "Relio_IF_Poster.png"
+                }
+            ]
+        },
+        {
             "Project_name": "CoSensUs Framework",
             "Tagline": "Get a sense of Collaborative Experience",
             "Year": 2022,
-            "Project_type": "Internship project",
+            "Project_type": "M22 Project",
             "Project_description": {
                 "Introduction": "The CoSensUs framework is a tool that helps designers and researchers find new ways to measure experience using sensors.",
                 "Problem": "User Experience is usually evaluated after an interaction, by means of self-reported methods such as questionnaires or interviews. This limits the different ways in which experience can be measured and our ability to create designs that adapt to the experience of users in real-time.",
@@ -41,110 +133,94 @@
             ]
         },
         {
-            "Project_name": "Moirai",
-            "Tagline": "Co-regulating self-regulation through negotiation",
-            "Year": 2021,
-            "Project_type": "Research project MSc Industrial Design",
+            "Project_name": "Embodying intelligent behaviour in social context",
+            "Tagline": "...",
+            "Year": 2020,
+            "Project_type": "Elective",
             "Project_description": {
-                "Introduction": "Moirai is design that acts as an exploration of different negotiation strategies to help runners self-regulate their running routines.",
-                "Problem": "As individuals are increasingly expected to take personal responsibility for running their own healthy lifestyle, self-regulation seems to become more important among athletes, who have to find a balance between achieving their goals and preventing over-use injuries. However, how can we best design for this self-regulation?",
-                "Process": "In the beginning, design was made meant to help runners self-regulate their running through a battery metaphor: when they were running, the battery depleted, and in between running sessions it filled up again. However, the negotiation in this design was limited, and it turned out quite paternalistic. After critically reflecting on the design, the question arose how different negotiation strategies would impact the autonomy and self-regulation of the user. To investigate this, Moirai was developed, a design consisting of a set of motorized sliders that allowed the user to directly negotiate with suggestions made by the device regarding running distance and days between running sessions. The device was programmed to have 10 different negotiation strategies based on the 5 negotiation strategies. An experiment was set up where participants were given scenarios and had to negotiate with a certain behavior of the device, after which they were interviewed about their experience. ",
-                "Solution": "The findings of this study resulted in the proposal of an alternative way of interacting with the device that does not completely correspond to hard or soft paternalism: a co-regulation between user and device through problem solving and compromising negotiation strategies. It is more explicit then nudging and gives participants the opportunity to explore integrative potential and come to mutual agreement. Our preliminary study shows users do not feel as coerced as with hard paternalism and prefer it over soft paternalism. More investigations are however needed to come to a decisive conclusion. "
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": [
-                {
-                    "Name": "Moirai",
-                    "Alt_text": "Image of the interactive prototype of Moirai",
-                    "URL": "Moirai_main.jpg"
-                },
-                {
-                    "Name": "Moirai",
-                    "Alt_text": "Image of the interactive prototype of Moirai",
-                    "URL": "Moirai_side.jpg"
-                },
-                {
-                    "Name": "Moirai",
-                    "Alt_text": "Image of the interactive prototype of Moirai",
-                    "URL": "Moirai_shallow.jpg"
-                },
-                {
-                    "Name": "Moirai",
-                    "Alt_text": "Image of the interactive prototype of Moirai",
-                    "URL": "Moirai_front.jpg"
-                }
-            ]
+            "Images": []
         },
         {
-            "Project_name": "Relio",
-            "Tagline": "Recontextualizing the Work-From-Home environment",
+            "Project_name": "Design for behavioral change",
+            "Tagline": "...",
             "Year": 2021,
-            "Project_type": "Group project MSc Industrial Design",
+            "Project_type": "Elective",
             "Project_description": {
-                "Introduction": "Relio is a work from home assistant that helps users manage their work/life balance.",
-                "Problem": "Due to the COVID-19 pandemic, many office workers have been forced to work from home, resulting in multiple mental health challenges related to work-life balance, coworker communication, and feelings of isolation.",
-                "Process": "Through cultural probes and interviews, insights were gathered on what different values people had surrounding work/life balance. What became apparent is that users had very different reasons why they care about work/life balance, but most of them had in common that the pandemic and WFH-context made it harder to separate both, due to a lack of different physical spaces. In order to recreate this difference between home and work, different ways were explored to recontextualize the user while working, using soundscapes and different interface designs to organize communication channels. We discussed findings with employees from Asus, with whom we collaborated on this project.",
-                "Solution": "Relio is a WFH assistant recontextualizing the user when working from home. The calming soundscape makes the user peripherally aware of the happenings in the online/hybrid office environment in a non-obtrusive way, and the interface lowers the threshold to spontaneously communicate with coworkers. At the end of the working day, Relio can be turned off, ceasing all communication with the office and ending the soundscape, bringing the user back home."
-            },
-            "Awards": [
-                {
-                    "Name": "IF Design Talent Award",
-                    "Year": 2021,
-                    "Logo_URL": ""
-                }
-            ],
-            "Images": [
-                {
-                    "Name": "Relio",
-                    "Alt_text": "Image of the aesthetic prototype of Moirai",
-                    "URL": "Relio_Photo_main.jpg"
-                },
-                {
-                    "Name": "Relio",
-                    "Alt_text": "Image of the aesthetic prototype of Moirai",
-                    "URL": "Relio_Calling.jpg"
-                },
-                {
-                    "Name": "Relio",
-                    "Alt_text": "Image of the aesthetic prototype of Moirai",
-                    "URL": "Relio_Balance.png"
-                },
-                {
-                    "Name": "IF Design poster Relio",
-                    "Alt_text": "Image of the poster submitted to the IF Design talent award",
-                    "URL": "Relio_IF_Poster.png"
-                }
-            ]
-        },
-        {
-            "Project_name": "Hikey",
-            "Tagline": "The beginning of a lifetime learning adventure",
-            "Year": 2021,
-            "Project_type": "Final BSc Project Industrial Design",
-            "Project_description": {
-                "Introduction": "Hikey is a homework planning app that stimulates self-regulated learning for primary school children.",
-                "Problem": "For a long time, the European Union has advocated for “lifelong learning” which should enable all citizens to participate in the knowledge society. The key competence to achieve this is self-regulated learning. However, the burn-out rates among teachers in the Netherlands and the worldwide COVID-19 pandemic require a new solution for the education of self-regulated learning.",
-                "Process": "Initially, the goal was to use HARU, a tabletop robot, to assist children in their learning activities by making suggestions. However, the COVID-19 pandemic hindered the collaboration with Honda RI Japan (the makers of the robot), and a new solution had to be found. I turned to (mobile) web applications, one of the technologies that is fastest to develop for and easiest to distribute, and therefore most suitable for crisis situations like this pandemic. Based on theories of self-regulation and an ongoing collaboration with primary school teachers, a workflow was designed that would be best for teacher and student, which served as a basis for the app. A business model canvas, envisioned costs & revenue, and competitor analysis were made.",
-                "Solution": "The outcome was the mock-up of the application Hikey. Students can use Hikey to plan their homework, and will gradually be exposed to different elements of self-regulation, until they are fully self-regulated learners. A business model was made to prove the market potential of the app."
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": [
-                {
-                    "Name": "Mockup Hikey",
-                    "Alt_text": "Image of a mockup of the Hikey app",
-                    "URL": "Hikey_mockup_1.png"
-                },
-                {
-                    "Name": "Mockup Hikey",
-                    "Alt_text": "Image of a mockup of the Hikey app",
-                    "URL": "Hikey_mockup_2.png"
-                },
-                {
-                    "Name": "Mockup Hikey",
-                    "Alt_text": "Image of a mockup of the Hikey app",
-                    "URL": "Hikey_mockup_4.png"
-                }
-            ]
+            "Images": []
+        },
+        {
+            "Project_name": "Constructive Design Research",
+            "Tagline": "...",
+            "Year": 2020,
+            "Project_type": "Core course",
+            "Project_description": {
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
+            },
+            "Awards": [],
+            "Images": []
+        },
+        {
+            "Project_name": "Complex and adaptive systems",
+            "Tagline": "...",
+            "Year": 2021,
+            "Project_type": "Elective",
+            "Project_description": {
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
+            },
+            "Awards": [],
+            "Images": []
+        },
+        {
+            "Project_name": "Research methods",
+            "Tagline": "...",
+            "Year": 2021,
+            "Project_type": "Track course",
+            "Project_description": {
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
+            },
+            "Awards": [],
+            "Images": []
+        },
+        {
+            "Project_name": "Design for social innovation",
+            "Tagline": "...",
+            "Year": 2020,
+            "Project_type": "Elective",
+            "Project_description": {
+                "Introduction": "Summary text",
+                "Problem": "Problem statment",
+                "Process": "Process description",
+                "Solution": "Solution description",
+                "Reflection": "Refelction description"
+            },
+            "Awards": [],
+            "Images": []
         }
     ]
 }

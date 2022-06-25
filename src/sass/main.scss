@@ -1,10 +1,10 @@
 /* The following block can be included in a custom.scss */
 /* make the customizations */
-$primary:   rgb(72, 145, 20);
+$primary: rgb(72, 145, 20);
 $secondary: #495057;
-$success:   rgb(78, 170, 17);
-$warning:   rgb(218, 180, 12);
-$danger:    rgb(202, 20, 66);
+$success: rgb(78, 170, 17);
+$warning: rgb(218, 180, 12);
+$danger: rgb(202, 20, 66);
 
 $font-family-sans-serif: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-weight-sans-serif: 400;
@@ -16,6 +16,7 @@ $headings-font-weight: 700;
 .btn:hover {
   color: white;
 }
+
 .btn-primary {
   color: white;
 }
@@ -29,18 +30,23 @@ $headings-font-weight: 700;
 
   &-problem:hover {
     border-left-color: $danger;
+
     h4 {
       color: $danger;
     }
   }
+
   &-process:hover {
     border-left-color: $warning;
+
     h4 {
       color: $warning;
     }
   }
+
   &-solution:hover {
     border-left-color: $success;
+
     h4 {
       color: $success;
     }
@@ -55,54 +61,61 @@ $headings-font-weight: 700;
 }
 
 .horizontal-scroll-item {
-  display: inline-block; 
+  display: inline-block;
   white-space: normal;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
+.non-scroll-item {
+  margin-bottom: 1.5rem;
+
+}
+
 .section-head {
-scroll-margin-top: 4rem;
+  scroll-margin-top: 4rem;
 }
 
 .section-container {
-margin-top: 6rem;
-margin-bottom: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #Home {
-padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 #resume-download {
-height: auto;
-min-height: 150px;
-background-image: url(../Content/Images/Resume_layout_v04_WEB_Page_1.jpg);
-background-repeat: no-repeat; 
-background-size: cover;
-padding: 0px;
+  height: auto;
+  min-height: 150px;
+  background-image: url(../Content/Images/Resume_layout_v04_WEB_Page_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
 
-div {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(235,235,235,.5);
-  text-align: center;
-  .btn {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 1rem;
+  div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(235, 235, 235, .5);
+    text-align: center;
+
+    .btn {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin: 1rem;
+    }
   }
-}
 }
 
 .card-image {
-height: 24rem;
-width: 100%;
-background-repeat: none;
-background-size: cover;
-background-position: center center;
+  height: 24rem;
+  width: 100%;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
 
 @mixin link-reset {
@@ -111,9 +124,11 @@ background-position: center center;
     color: rgba(0, 0, 0, 0.55)
   }
 }
+
 .nav-link {
   @include link-reset()
 }
+
 .navbar-brand {
   @include link-reset()
 }
@@ -124,6 +139,29 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.container-header {
+  padding-top: 12rem;
+  color: white;
+  font-size: 3.2rem;
+}
+
+.header-annotation {
+  position: absolute;
+  bottom: .5rem;
+  right: 1rem;
+  color: white;
+  font-style: italic;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
@@ -138,8 +176,9 @@ h1 {
   height: 100%;
   font-weight: 300;
   font-size: 1.8rem;
+
   span {
-    color:rgb(72, 145, 20);
+    color: rgb(72, 145, 20);
     font-weight: bold;
   }
 }

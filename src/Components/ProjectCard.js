@@ -13,15 +13,17 @@ function ProjectCard(props) {
 
     if (props.data.Awards.length > 0) {
         award = (
-            <img src={require('../Content/Images/IF.png')} style={{
-                position: 'absolute', bottom: '15.75rem', right: '1rem',
-                height: '3rem', width: 'auto'
-            }} />
+            <a href='https://www.ifdesign.com/en/winner-ranking/project/relio/322156'>
+                <img src={require('../Content/Images/IF.png')} style={{
+                    position: 'absolute', bottom: '1rem', right: '1rem',
+                    height: '3rem', width: 'auto'
+                }} />
+            </a>
         )
     }
 
     return (
-        <Card style={{ width: '26rem', height: '100%', marginRight: "1rem" }}>
+        <Card style={{ width: '100%', height: '100%', marginRight: "1rem" }}>
             <div className="card-image" style={imageStyle}>
                 {award}
             </div>

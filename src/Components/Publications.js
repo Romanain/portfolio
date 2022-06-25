@@ -11,19 +11,15 @@ import paperData from '../Content/Papers.json';
 function Publications() {
     return (
         <Container id="Publications" className="section-head section-container">
-            <h1>Publications</h1>
+            <h2>Publications</h2>
             <Row>
-                <Col>
-                    <div className='horizontal-scroll-box'>
-                        {
-                            paperData.Papers.map((paper) => (
-                                <div className='horizontal-scroll-item'>
-                                    <PaperCard data={paper}></PaperCard>
-                                </div>
-                            ))
-                        }
-                    </div>
-                </Col>
+                {
+                    paperData.Papers.map((paper) => (
+                        <Col lg={{ span: 4 }} md={{ span: 6 }} sm={{ span: 12 }} className='non-scroll-item'>
+                            <PaperCard data={paper}></PaperCard>
+                        </Col>
+                    ))
+                }
             </Row>
         </Container>
     )

@@ -16,13 +16,13 @@ function PaperCard(props) {
     }
 
     return (
-        <Card style={{ width: '26rem', height: '100%', marginRight: '1rem' }}>
+        <Card style={{ width: '100%', height: '100%', marginRight: '1rem' }}>
             <Card.Body>
                 <Card.Title> {props.data.Title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
                     {props.data.Year} | {props.data.Journal}
                 </Card.Subtitle>
-                <Card.Text style={{ marginBottom: "2rem" }}>
+                <Card.Text style={{ marginBottom: "3rem" }}>
                     {AuthorList}
                 </Card.Text>
                 <Card.Link

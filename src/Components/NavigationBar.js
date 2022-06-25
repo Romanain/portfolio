@@ -16,13 +16,14 @@ function NavigationBar() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link><HashLink to="/portfolio/#AboutMe">About</HashLink></Nav.Link>
-                            <Nav.Link><HashLink to="/portfolio/#Projects">Projects</HashLink></Nav.Link>
-                            <Nav.Link><HashLink to="/portfolio/#Publications">Publications</HashLink></Nav.Link>
-                            <Nav.Link><HashLink to="/portfolio/#Resume">Resume</HashLink></Nav.Link>
+                            <Nav.Link><HashLink to="/portfolio/#Identity">Professional Identity</HashLink></Nav.Link>
+                            <Nav.Link><HashLink to="/portfolio/#Vision">Vision</HashLink></Nav.Link>
+                            <Nav.Link><HashLink to="/portfolio/#PastHeader">Past</HashLink></Nav.Link>
+                            <Nav.Link><HashLink to="/portfolio/#PresentHeader">Present</HashLink></Nav.Link>
+                            <Nav.Link><HashLink to="/portfolio/#FutureHeader">Future</HashLink></Nav.Link>
                         </Nav>
                         <Nav>
-                            <Button href="/portfolio/#ContactMe" size="md">Contact me!</Button>
+                            <Button href="https://github.com/Romanain/portfolio" size="md">See the code on GitHub!</Button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

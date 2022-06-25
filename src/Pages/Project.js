@@ -56,12 +56,12 @@ function Project() {
                     <br />
                     <strong>{thisProject.Project_description.Introduction}</strong>
 
-                    <div className="project-description project-description-problem">
+                    <div className="project-description project-description-solution">
                         <h4>The problem</h4>
                         {thisProject.Project_description.Problem}
                     </div>
 
-                    <div className="project-description project-description-process">
+                    <div className="project-description project-description-solution">
                         <h4>The process</h4>
                         {thisProject.Project_description.Process}
                     </div>
@@ -71,12 +71,18 @@ function Project() {
                         {thisProject.Project_description.Solution}
                     </div>
 
+                    <div className="project-description project-description-solution">
+                        <h4>Reflection</h4>
+                        {thisProject.Project_description.Reflection}
+                    </div>
+
+
                     {award}
 
                 </Col>
             </Row>
 
-            { console.log(thisProject)}
+            {console.log(thisProject)}
         </Container >
     )
 }

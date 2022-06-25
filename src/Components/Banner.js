@@ -22,16 +22,16 @@ function Banner() {
                 <Col md={{ span: 8 }}>
                     <Container style={{ marginLeft: "1rem" }}>
                         <br />
-                        <h1 style={{ textTransform: 'none', marginBottom: '0px', textAlign: 'left' }}>Hi, I'm Romain, <br /> a MSc student Industrial Design</h1>
-                        <h3 style={{ color: "gray", fontWeight: "400", marginBottom: "3rem" }}>... and I'm currently looking for a PhD position</h3>
-                        <Button href="#AboutMe" variant="outline-primary" size="lg">
-                            Learn about me
+                        <h1 style={{ textTransform: 'none', marginBottom: '.5rem', textAlign: 'left' }}>Hi, I'm Romain, <br /> a student in Design Research </h1>
+                        <h3 style={{ color: "gray", fontWeight: "400", marginBottom: "3rem" }}>that is specializing in MD&C and U&S</h3>
+                        <Button href="#Identity" variant="outline-primary" size="lg">
+                            My Identity and Vision
                         </Button> { }
-                        <Button href="#Projects" variant="outline-primary" size="lg" style={{ marginTop: "10px", marginBottom: "10px" }}>
-                            Learn about my work
+                        <Button href="#PresentHeader" variant="outline-primary" size="lg" style={{ marginTop: "10px", marginBottom: "10px" }}>
+                            My development over the masters
                         </Button> { }
-                        <Button href="#ContactMe" variant="outline-primary" size="lg">
-                            Get in touch
+                        <Button href="#FutureHeader" variant="outline-primary" size="lg">
+                            Beyond the masters
                         </Button>
                     </Container>
                 </Col>
