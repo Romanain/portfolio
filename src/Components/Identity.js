@@ -32,7 +32,7 @@ function Identity() {
                     </p> <p>
                         I also like <b>untangling complex topics</b> and getting to know as much as possible about them, and I am an <b>abstract thinker</b> that comes up with different conceptual frameworks based on activities in the design process. Because of this, I am interested in research and will pursue a PhD in Human-Computer Interaction at the University of Luxembourg after my masters.
                     </p> <p>
-                        I can be quite <b>a dreamer</b>, hypothesizing about different theories and possible futures for hours on end. This can be beneficial in finding new creative ideas for designs or connecting theories, but can also lead to a situation where I struggle getting into action. This also has to do with a perfectionistic, non-tolerant mindset I sometimes unfortunately have that does not allow mistakes, which can lead to paralysis. These are points I am continuously working on, both in my personal and professional life.
+                        I can be quite <b>a dreamer</b>, hypothesizing about different theories and possible futures for hours on end. This can be beneficial in finding new creative ideas for designs or connecting theories, but can also lead to a situation where I struggle getting into action. This also has to do with a perfectionistic, non-tolerant mindset I sometimes unfortunately have that does not allow mistakes, which can lead to paralysis. These are points I am continuously working on, both in my personal and professional life. I am a self-directed learner, always eager to improve myself and formulate plans on how to learn something new to satiate my latest curiosity.
 
                     </p>
                 </Col>
