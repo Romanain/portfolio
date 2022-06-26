@@ -13,7 +13,23 @@
                 "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "Name": "CoSensUs Kit",
+                    "Alt_text": "Image of the CoSensUs Kit",
+                    "URL": "FMP_main_kit.jpg"
+                },
+                {
+                    "Name": "CoSensUs Kit",
+                    "Alt_text": "Image of the CoSensUs Kit",
+                    "URL": "FMP_Dataflow.png"
+                },
+                {
+                    "Name": "CoSensUs Kit",
+                    "Alt_text": "Image of the CoSensUs Kit",
+                    "URL": "FMP_Main.png"
+                }
+            ]
         },
         {
             "Project_name": "Moirai",
@@ -145,7 +161,11 @@
                 "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "URL": "Embodying_intelligent_main.png"
+                }
+            ]
         },
         {
             "Project_name": "Design for behavioral change",
@@ -160,7 +180,11 @@
                 "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "URL": "Behavioral_change_main.png"
+                }
+            ]
         },
         {
             "Project_name": "Constructive Design Research",
@@ -175,7 +199,11 @@
                 "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "URL": "Constructive_main.png"
+                }
+            ]
         },
         {
             "Project_name": "Complex and adaptive systems",
@@ -190,13 +218,17 @@
                 "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "URL": "CAS_main.png"
+                }
+            ]
         },
         {
-            "Project_name": "Research methods",
+            "Project_name": "Design for social innovation",
             "Tagline": "...",
-            "Year": 2021,
-            "Project_type": "Track course",
+            "Year": 2020,
+            "Project_type": "Elective",
             "Project_description": {
                 "Introduction": "Summary text",
                 "Problem": "Problem statment",
@@ -205,13 +237,17 @@
                 "Reflection": "Refelction description"
             },
             "Awards": [],
-            "Images": []
+            "Images": [
+                {
+                    "URL": "DFSI_main.png"
+                }
+            ]
         },
         {
-            "Project_name": "Design for social innovation",
+            "Project_name": "Research methods",
             "Tagline": "...",
-            "Year": 2020,
-            "Project_type": "Elective",
+            "Year": 2021,
+            "Project_type": "Track course",
             "Project_description": {
                 "Introduction": "Summary text",
                 "Problem": "Problem statment",

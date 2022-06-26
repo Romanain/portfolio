@@ -22,6 +22,8 @@ function ProjectCard(props) {
         )
     }
 
+    // if 
+
     return (
         <Card style={{ width: '100%', height: '100%', marginRight: "1rem" }}>
             <div className="card-image" style={imageStyle}>
@@ -33,7 +35,7 @@ function ProjectCard(props) {
                 </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{props.data.Year} | {props.data.Project_type}</Card.Subtitle>
                 <Card.Text style={{ marginBottom: '3.25rem' }}>{props.data.Project_description.Introduction}</Card.Text>
-                <Link to={'./project/' + props.idx + '#top'}>
+                <Link to={'/portfolio/project/' + props.idx + '#top'}>
                     <Button style={{ position: 'absolute', bottom: '1rem' }} variant="primary">Learn more</Button>
                 </Link>
             </Card.Body>
