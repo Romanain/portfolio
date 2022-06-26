@@ -1,6 +1,30 @@
 {
     "Papers": [
         {
+            "Title": "The CoSensUs Sensor Kit: Self-Tracking Collaboration Experiences",
+            "Authors": [
+                "Toebosch, Romain HA",
+                "Lallemand, Carine"
+            ],
+            "Journal": "NordiCHI",
+            "Year": "Submitted, awaiting notification",
+            "DOI_URL": "Submitted, awaiting notification"
+        },
+        {
+            "Title": "Negotiating Learning Goals with Your Future Learning-Self",
+            "Authors": [
+                "Tsiakas, Konstantinos",
+                "Cnossen, Deborah",
+                "Muyrers, Tim HC",
+                "Stappers, Danique RC",
+                "Toebosch, Romain HA",
+                "Barakova, Emilia"
+            ],
+            "Journal": "Technologies 10 (2)",
+            "Year": 2022,
+            "DOI_URL": "https://doi.org/10.3390/technologies10020044"
+        },
+        {
             "Title": "Futureme: Negotiating learning goals with your future learning-self avatar",
             "Authors": [
                 "Tsiakas, Konstantinos",
