@@ -23,7 +23,7 @@ function Banner() {
                     <Container style={{ marginLeft: "1rem" }}>
                         <br />
                         <h1 style={{ textTransform: 'none', marginBottom: '.5rem', textAlign: 'left' }}>Hi, I'm Romain, <br /> a junior Design Researcher </h1>
-                        <h3 style={{ color: "gray", fontWeight: "400", marginBottom: "3rem" }}>that aims to enable users through resposible data-centered designs</h3>
+                        <h3 style={{ color: "gray", fontWeight: "400", marginBottom: "3rem" }}>that aims to empower users through responsible data-centered designs</h3>
                         <Button href="#Identity" variant="outline-primary" size="lg">
                             My Identity and Vision
                         </Button> { }
