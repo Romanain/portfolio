@@ -65,7 +65,7 @@ function Competencies() {
                         <Tab eventKey="Skills" title="Skills">
                             <h3>Professional skills</h3>
                             <p>
-                                As my desire is to go to academia, there were two domains in which I was most interested improving my skills: reporting and sharing knowledge. In terms of reporting, my reports were often bland, non-aesthetic, heavily text-based based reports. Although there is still improvement that can be done in this point, I think the FMP report demonstrates a much more aesthetic style of reporting where the visuals help understand the overall narrative of the report. In terms of sharing knowledge, I have (co-)hosted multiple workshops on technical topics like Arduino or machine learning, which will give me valuable knowledge and experience for teaching during the PhD.
+                                As my desire is to go to academia, there were two domains in which I was most interested improving my skills: reporting and sharing knowledge. In terms of reporting, my reports were often bland, non-aesthetic, heavily text-based reports. Although there is still improvement that can be done in this point, I think the FMP report demonstrates a much more aesthetic style of reporting where the visuals help understand the overall narrative of the report. In terms of sharing knowledge, I have (co-)hosted multiple workshops on technical topics like Arduino or machine learning, which will give me valuable knowledge and experience for teaching during the PhD.
                             </p>
                         </Tab>
                     </Tabs>

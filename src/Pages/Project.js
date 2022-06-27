@@ -71,10 +71,10 @@ function Project() {
                         {thisProject.Project_description.Solution}
                     </div>
 
-                    <div className="project-description project-description-solution">
+                    {/* <div className="project-description project-description-solution">
                         <h4>Reflection</h4>
                         {thisProject.Project_description.Reflection}
-                    </div>
+                    </div> */}
 
 
                     {award}

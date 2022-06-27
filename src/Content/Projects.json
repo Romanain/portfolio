@@ -7,9 +7,9 @@
             "Project_type": "Final Master Project",
             "Project_description": {
                 "Introduction": "The CoSensUs Kit is an open-ended sensor kit for collaborators to self-track their collaboration experiences and behaviours",
-                "Problem": "Problem statment",
-                "Process": "Process description",
-                "Solution": "Solution description",
+                "Problem": "Many tools made for collaboration track everything their users do, and send this information to managers, administrators, and other parties. However, the collaborators themselves rarely receive any data. This is strange, since literature shows self-awareness is crucial for good collaboration, and data about the self can help create awareness. What would it look like when we design a tool for collaborators that enables them to self-track their collaboration? ",
+                "Process": "After a benchmark of existing technologies and a review of the literature, a set of paper prototypes was made to explore the topic. These helped elicit questions and reflections about data privacy, the role of the group, and the openness of open-ended sensors. This last reflection spawned an experiment where 27 different paper prototypes were used to compare 3 types of affordances/ signifiers in sensors. The kit was then realized from an integrated perspective, where technical and aesthetical considerations alike were made, and auto-deployed during demo day. ",
+                "Solution": "The CoSensUs Kit is an open-ended sensors kit for self-tracking collaboration experiences and behaviour. In an onboarding workshop, users select what sensors they want to use to track metrics meaningful to them. The kit can be used as a probe to find out what matters to users about their collaboration experience, and challenges the notion of “self” in self-tracking. It is open source, and has privacy considerations in its aesthetics, hardware, and software.",
                 "Reflection": "Refelction description"
             },
             "Awards": [],
@@ -112,7 +112,7 @@
             "Project_name": "CoSensUs Framework",
             "Tagline": "Get a sense of Collaborative Experience",
             "Year": 2022,
-            "Project_type": "M22 Project",
+            "Project_type": "M21 Project",
             "Project_description": {
                 "Introduction": "The CoSensUs framework is a tool that helps designers and researchers find new ways to measure experience using sensors.",
                 "Problem": "User Experience is usually evaluated after an interaction, by means of self-reported methods such as questionnaires or interviews. This limits the different ways in which experience can be measured and our ability to create designs that adapt to the experience of users in real-time.",
